@@ -45,7 +45,7 @@ Console.Write(" In this array, number of even numbers is - " + result);
 
 
 //Задача 36: Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
-/*
+
 int OddIndexSum(int[] array)
 {
    int sum = 0;
@@ -65,11 +65,13 @@ int[] oddIndexArray = CreateRandomIntArray(size, min, max);
 int sum = OddIndexSum(oddIndexArray);
 ShowIntArray(oddIndexArray);
 Console.Write("The sum of the numbers placed in odd cells is: " + sum);
-*/
+
+
+
 
 
 //Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
-/*
+
 double DiffMaxMin (double[] array)
 {
    double max = array[0];
@@ -109,4 +111,3 @@ ShowDoubleArray(arrayOfDoubles);
 double
 diff = DiffMaxMin(arrayOfDoubles);
 Console.WriteLine("The difference between max and min is: " + diff);
-*/
